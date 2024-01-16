@@ -54,6 +54,7 @@ body {
     width: 100%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
+    background-color: antiquewhite;
     padding: 25px;
     display: flex;
     align-items: center;
@@ -79,7 +80,7 @@ body {
     padding: 5px 10px;
     margin: 0 5px;
     border: 1px solid gray;
-    border-radius: 10px;
+    border-radius: 6px;
     font-weight: 500;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
@@ -93,11 +94,17 @@ body {
 }
 
 .btn .addfriend:hover {
-    background-color: #0034c4;
+    background-color: #265df2;
     padding: 5px 15px;
 }
 
 .btn .remove:hover {
     background-color: rgb(201, 201, 201);
     padding: 5px 15px;
+}
+#dip-saha{
+    display: none;
+}
+#suman-biswas{
+    display: none;
 }
