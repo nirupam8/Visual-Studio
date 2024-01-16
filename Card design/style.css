@@ -54,7 +54,7 @@ body {
     width: 100%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
-    background-color: antiquewhite;
+    background-color: rgb(236, 206, 196);
     padding: 25px;
     display: flex;
     align-items: center;
