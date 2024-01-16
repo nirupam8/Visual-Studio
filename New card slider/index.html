@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider">
+    <div class="card">
+        <div class="profile-card" id="nirupam-pal">
+            <div class="image">
+              <img
+                src="https://scontent.fccu1-2.fna.fbcdn.net/v/t39.30808-6/419746531_122098270448189661_3916635349016255356_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=TX28Ezy2y4QAX9m-xCg&_nc_ht=scontent.fccu1-2.fna&oh=00_AfB7WOHbPxiFnkMAH-cVc60l_FBWYJY15Opr0uKfWv14xg&oe=65AC0A99"
+                alt=""
+                class="profile-image"
+              />
+            </div>
+            <div class="text">
+              <h1>Nirupam Pal</h1>
+            </div>
+            <div class="btn">
+              <button class="addfriend">Add Friend</button>
+              <button class="remove">Remove</button>
+            </div>
+          </div>
+    </div>
+    <div class="card">
+      <div class="profile-card" id="proloy-pal">
+        <div class="image">
+          <img
+            src="https://scontent.fccu1-2.fna.fbcdn.net/v/t39.30808-6/418488632_381881037661567_4174471690209954890_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=rhgnK_5sJ4cAX8g3B7X&_nc_ht=scontent.fccu1-2.fna&oh=00_AfA4oW5RXIuAk1PnkyHoSYLqM-tbysh6PpkqMs4mOgxHcg&oe=65AA8A8D"
+            alt=""
+            class="profile-image"
+          />
+        </div>
+        <div class="text">
+          <h1>Proloy Pal</h1>
+        </div>
+        <div class="btn">
+          <button class="addfriend">Add Friend</button>
+          <button class="remove">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="card">  <div class="profile-card" id="amartyadip-roy">
+      <div class="image">
+        <img
+          src="https://scontent.fccu1-2.fna.fbcdn.net/v/t1.6435-9/205248817_1053924338695566_3739605571422753331_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=be3454&_nc_ohc=2G0eu_hWxmUAX89kqna&_nc_ht=scontent.fccu1-2.fna&oh=00_AfDKHhfyokW025tJh-5fJ0Kl1HtZCR7ibP_RmNE4UbicrA&oe=65CD8C7E"
+          alt=""
+          class="profile-image"
+        />
+      </div>
+      <div class="text">
+        <h1>Amartyadip Roy</h1>
+      </div>
+      <div class="btn">
+        <button class="addfriend">Add Friend</button>
+        <button class="remove">Remove</button>
+      </div>
+    </div>
+  </div>
+    <div class="card">
+      <div class="profile-card" id="suman-biswas">
+        <div class="image">
+          <img
+            src="https://scontent.fccu1-2.fna.fbcdn.net/v/t39.30808-1/362913163_833755628180005_7295862654371926307_n.jpg?stp=c0.7.200.200a_dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=5740b7&_nc_ohc=FeXkcAtqaLwAX8WZYpx&_nc_ht=scontent.fccu1-2.fna&oh=00_AfAULU6LSHA5XwZyt_2HKSGPJIzZJydhFcwrrWeS_zklkA&oe=65AB87E2"
+            alt=""
+            class="profile-image"
+          />
+        </div>
+        <div class="text">
+          <h1>Suman Biswas</h1>
+        </div>
+        <div class="btn">
+          <button class="addfriend">Add Friend</button>
+          <button class="remove">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="profile-card" id="dip-saha">
+        <div class="image">
+          <img
+            src="https://scontent.fccu1-2.fna.fbcdn.net/v/t39.30808-6/316675349_871839384161852_9061655353213242735_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=h87pZzbeTqwAX-vdaDG&_nc_ht=scontent.fccu1-2.fna&oh=00_AfAdmlktR1VpR_-xNkNJ8f-2s9fJ3hH32DxwE5mMOVo6vQ&oe=65AC0B1B"
+            alt=""
+            class="profile-image"
+          />
+        </div>
+        <div class="text">
+          <h1>Dip Saha</h1>
+        </div>
+        <div class="btn">
+          <button class="addfriend">Add Friend</button>
+          <button class="remove">Remove</button>
+        </div>
+      </div>
+    </div>
+    <!-- Add more cards as needed -->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    // Initialize the slider
+    $(document).ready(function(){
+        $('.slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    });
+</script>
+
+</body>
+</html>
